@@ -21,6 +21,7 @@
 		1B819E8319817D2E00416EF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B819E6519817D2E00416EF3 /* UIKit.framework */; };
 		1B819E8B19817D2E00416EF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B819E8919817D2E00416EF3 /* InfoPlist.strings */; };
 		1B819E8D19817D2E00416EF3 /* ValidationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B819E8C19817D2E00416EF3 /* ValidationExampleTests.m */; };
+		1B819E9819817E1900416EF3 /* MutableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B819E9719817E1900416EF3 /* MutableModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1B819E8819817D2E00416EF3 /* ValidationExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValidationExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1B819E8A19817D2E00416EF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B819E8C19817D2E00416EF3 /* ValidationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationExampleTests.m; sourceTree = "<group>"; };
+		1B819E9619817E1900416EF3 /* MutableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableModel.h; sourceTree = "<group>"; };
+		1B819E9719817E1900416EF3 /* MutableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				1B819E7319817D2E00416EF3 /* Main.storyboard */,
 				1B819E7619817D2E00416EF3 /* ViewController.h */,
 				1B819E7719817D2E00416EF3 /* ViewController.m */,
+				1B819E9619817E1900416EF3 /* MutableModel.h */,
+				1B819E9719817E1900416EF3 /* MutableModel.m */,
 				1B819E7919817D2E00416EF3 /* Images.xcassets */,
 				1B819E6819817D2E00416EF3 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				1B819E7819817D2E00416EF3 /* ViewController.m in Sources */,
 				1B819E7219817D2E00416EF3 /* AppDelegate.m in Sources */,
 				1B819E6E19817D2E00416EF3 /* main.m in Sources */,
+				1B819E9819817E1900416EF3 /* MutableModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

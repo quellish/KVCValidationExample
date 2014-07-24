@@ -16,24 +16,9 @@
 		1B819E7519817D2E00416EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B819E7319817D2E00416EF3 /* Main.storyboard */; };
 		1B819E7819817D2E00416EF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B819E7719817D2E00416EF3 /* ViewController.m */; };
 		1B819E7A19817D2E00416EF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B819E7919817D2E00416EF3 /* Images.xcassets */; };
-		1B819E8119817D2E00416EF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B819E8019817D2E00416EF3 /* XCTest.framework */; };
-		1B819E8219817D2E00416EF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B819E6119817D2E00416EF3 /* Foundation.framework */; };
-		1B819E8319817D2E00416EF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B819E6519817D2E00416EF3 /* UIKit.framework */; };
-		1B819E8B19817D2E00416EF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B819E8919817D2E00416EF3 /* InfoPlist.strings */; };
-		1B819E8D19817D2E00416EF3 /* ValidationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B819E8C19817D2E00416EF3 /* ValidationExampleTests.m */; };
 		1B819E9819817E1900416EF3 /* MutableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B819E9719817E1900416EF3 /* MutableModel.m */; };
 		1B819E9A1981872900416EF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B819E991981872900416EF3 /* README.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1B819E8419817D2E00416EF3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1B819E5619817D2E00416EF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B819E5D19817D2E00416EF3;
-			remoteInfo = ValidationExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1B819E5E19817D2E00416EF3 /* ValidationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,11 +35,7 @@
 		1B819E7619817D2E00416EF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1B819E7719817D2E00416EF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B819E7919817D2E00416EF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1B819E7F19817D2E00416EF3 /* ValidationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B819E8019817D2E00416EF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1B819E8819817D2E00416EF3 /* ValidationExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValidationExampleTests-Info.plist"; sourceTree = "<group>"; };
-		1B819E8A19817D2E00416EF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1B819E8C19817D2E00416EF3 /* ValidationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationExampleTests.m; sourceTree = "<group>"; };
 		1B819E9619817E1900416EF3 /* MutableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableModel.h; sourceTree = "<group>"; };
 		1B819E9719817E1900416EF3 /* MutableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableModel.m; sourceTree = "<group>"; };
 		1B819E991981872900416EF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -71,16 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B819E7C19817D2E00416EF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B819E8119817D2E00416EF3 /* XCTest.framework in Frameworks */,
-				1B819E8319817D2E00416EF3 /* UIKit.framework in Frameworks */,
-				1B819E8219817D2E00416EF3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,7 +60,6 @@
 			children = (
 				1B819E991981872900416EF3 /* README.md */,
 				1B819E6719817D2E00416EF3 /* ValidationExample */,
-				1B819E8619817D2E00416EF3 /* ValidationExampleTests */,
 				1B819E6019817D2E00416EF3 /* Frameworks */,
 				1B819E5F19817D2E00416EF3 /* Products */,
 			);
@@ -99,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				1B819E5E19817D2E00416EF3 /* ValidationExample.app */,
-				1B819E7F19817D2E00416EF3 /* ValidationExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,24 +111,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1B819E8619817D2E00416EF3 /* ValidationExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				1B819E8C19817D2E00416EF3 /* ValidationExampleTests.m */,
-				1B819E8719817D2E00416EF3 /* Supporting Files */,
-			);
-			path = ValidationExampleTests;
-			sourceTree = "<group>";
-		};
-		1B819E8719817D2E00416EF3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B819E8819817D2E00416EF3 /* ValidationExampleTests-Info.plist */,
-				1B819E8919817D2E00416EF3 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,24 +131,6 @@
 			productReference = 1B819E5E19817D2E00416EF3 /* ValidationExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B819E7E19817D2E00416EF3 /* ValidationExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B819E9319817D2E00416EF3 /* Build configuration list for PBXNativeTarget "ValidationExampleTests" */;
-			buildPhases = (
-				1B819E7B19817D2E00416EF3 /* Sources */,
-				1B819E7C19817D2E00416EF3 /* Frameworks */,
-				1B819E7D19817D2E00416EF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B819E8519817D2E00416EF3 /* PBXTargetDependency */,
-			);
-			name = ValidationExampleTests;
-			productName = ValidationExampleTests;
-			productReference = 1B819E7F19817D2E00416EF3 /* ValidationExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,11 +139,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Dan Zinngrabe";
-				TargetAttributes = {
-					1B819E7E19817D2E00416EF3 = {
-						TestTargetID = 1B819E5D19817D2E00416EF3;
-					};
-				};
 			};
 			buildConfigurationList = 1B819E5919817D2E00416EF3 /* Build configuration list for PBXProject "ValidationExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -226,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				1B819E5D19817D2E00416EF3 /* ValidationExample */,
-				1B819E7E19817D2E00416EF3 /* ValidationExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,14 +167,6 @@
 				1B819E6C19817D2E00416EF3 /* InfoPlist.strings in Resources */,
 				1B819E9A1981872900416EF3 /* README.md in Resources */,
 				1B819E7519817D2E00416EF3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B819E7D19817D2E00416EF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B819E8B19817D2E00416EF3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,23 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B819E7B19817D2E00416EF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B819E8D19817D2E00416EF3 /* ValidationExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1B819E8519817D2E00416EF3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1B819E5D19817D2E00416EF3 /* ValidationExample */;
-			targetProxy = 1B819E8419817D2E00416EF3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1B819E6A19817D2E00416EF3 /* InfoPlist.strings */ = {
@@ -298,14 +201,6 @@
 				1B819E7419817D2E00416EF3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1B819E8919817D2E00416EF3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B819E8A19817D2E00416EF3 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,46 +302,6 @@
 			};
 			name = Release;
 		};
-		1B819E9419817D2E00416EF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ValidationExample.app/ValidationExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ValidationExample/ValidationExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ValidationExampleTests/ValidationExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		1B819E9519817D2E00416EF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ValidationExample.app/ValidationExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ValidationExample/ValidationExample-Prefix.pch";
-				INFOPLIST_FILE = "ValidationExampleTests/ValidationExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,14 +319,6 @@
 			buildConfigurations = (
 				1B819E9119817D2E00416EF3 /* Debug */,
 				1B819E9219817D2E00416EF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1B819E9319817D2E00416EF3 /* Build configuration list for PBXNativeTarget "ValidationExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B819E9419817D2E00416EF3 /* Debug */,
-				1B819E9519817D2E00416EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
